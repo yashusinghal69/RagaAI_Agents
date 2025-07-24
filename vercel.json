@@ -1,0 +1,36 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": ".next"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/agents/(.*)",
+      "dest": "/agents/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/agents/(.*)",
+      "headers": [
+        {
+          "key": "Permissions-Policy",
+          "value": "microphone=*, camera=*, geolocation=*, gyroscope=*, magnetometer=*, accelerometer=*"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    }
+  ]
+}

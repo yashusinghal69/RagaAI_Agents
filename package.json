@@ -1,7 +1,11 @@
 {
-  "name": "my-v0-project",
+  "name": "raga-ai-agents",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -47,9 +51,9 @@
     "lucide-react": "^0.454.0",
     "next": "15.2.4",
     "next-themes": "^0.4.4",
-    "react": "^19",
+    "react": "^18.3.1",
     "react-day-picker": "^9.8.0",
-    "react-dom": "^19",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
@@ -60,9 +64,9 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/node": "^22",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
