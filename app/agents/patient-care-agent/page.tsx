@@ -4,7 +4,7 @@ export default function PatientCareAgentPage() {
       {/* Preconnect for faster loading */}
       <link rel="preconnect" href="https://caresyncai-flax.vercel.app" />
       <link rel="dns-prefetch" href="https://caresyncai-flax.vercel.app" />
-      
+
       <iframe
         src="https://caresyncai-flax.vercel.app/agents/patient-care-agent/"
         className="w-full h-full border-0"

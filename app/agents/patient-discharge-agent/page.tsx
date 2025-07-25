@@ -2,9 +2,15 @@ export default function PatientDischargeAgentPage() {
   return (
     <div className="w-screen h-screen overflow-hidden">
       {/* Preconnect for faster loading */}
-      <link rel="preconnect" href="https://patient-discharge-agent-nu.vercel.app" />
-      <link rel="dns-prefetch" href="https://patient-discharge-agent-nu.vercel.app" />
-      
+      <link
+        rel="preconnect"
+        href="https://patient-discharge-agent-nu.vercel.app"
+      />
+      <link
+        rel="dns-prefetch"
+        href="https://patient-discharge-agent-nu.vercel.app"
+      />
+
       <iframe
         src="https://patient-discharge-agent-nu.vercel.app/agents/patient-discharge-agent/"
         className="w-full h-full border-0"

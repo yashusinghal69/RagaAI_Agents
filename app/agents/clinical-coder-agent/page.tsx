@@ -2,9 +2,15 @@ export default function ClinicalCoderAgentPage() {
   return (
     <div className="w-screen h-screen overflow-hidden">
       {/* Preconnect for faster loading */}
-      <link rel="preconnect" href="https://clinical-coder-agent-six.vercel.app" />
-      <link rel="dns-prefetch" href="https://clinical-coder-agent-six.vercel.app" />
-      
+      <link
+        rel="preconnect"
+        href="https://clinical-coder-agent-six.vercel.app"
+      />
+      <link
+        rel="dns-prefetch"
+        href="https://clinical-coder-agent-six.vercel.app"
+      />
+
       <iframe
         src="https://clinical-coder-agent-six.vercel.app/agents/clinical-coder-agent/"
         className="w-full h-full border-0"
